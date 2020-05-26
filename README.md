@@ -5,7 +5,7 @@ This is a software application that is meant to predict whether or not the user 
 1) Download Node.js https://nodejs.org/en/download/
 2) Install ElectronJS via one of the following commands:
    - Global: `npm install electron -g`
-   - App Only: `npm install electron --save-de`v
+   - App Only: `npm install electron --save-dev`
 3) cd to the directory you installed the repository in via Command Prompt.
 4) Type `npm start`
 
