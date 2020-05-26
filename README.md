@@ -1,5 +1,5 @@
 # *PAWDS* (Parkinson's Algorithmic Detection Software)
-This is a software application that is meant to predict whether or not the user has Parkinson's Disease based on the kinematics of their handwriting (used for my 2020 AP Research Exam).
+This software application is meant to predict whether or not the user has Parkinson's disease based on the kinematics of their handwriting (used for in 2020 AP Research paper).
 
 ## DOWNLOAD INSTRUCTIONS
 1) Download Node.js https://nodejs.org/en/download/
