@@ -1,0 +1,26 @@
+{
+  "name": "pawds",
+  "version": "1.0.0",
+  "description": "A handwriting detection software that can assess whether or not the user has Parkinson's.",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=src/icon/pawds_icon.ico --prune=true --out=release-builds",
+    "package-win": "electron-packager . PAWDS --overwrite --asar=true --platform=win32 --arch=ia32 --icon=src/icon/pawds_icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"PAWDS\"",    
+    "package-linux": "electron-packager . PAWDS --overwrite --asar=true --platform=linux --arch=x64 --icon=src/icon/pawds_icon.png --prune=true --out=release-builds"
+  },
+  "build": {
+    "appID": "pawds",
+    "productName": "PAWDS",
+    "icon": "/src/icon/pawds_icon.png"
+  },
+  "author": "Jordan King",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.9"
+  },
+  "dependencies": {
+    "electron-packager": "^14.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <title>PAWDS (Parkinson's Algorithmic Writing Detection Software)</title>
+    <link rel="stylesheet" href="results.css" />
+  </head>
+
+  <body>
+    <p style="color: #9e9e9e">Press ESC at anytime to quit the program.</p>
+    
+    <header id="header"> ~ Results ~</header>
+    <div id="subheader">Your likelihood of having Parkinson's is...</div>
+    <div id="results"></div>
+
+    <div id="line">======================</div>
+    <div id="green"><i>*Green indicates a feature that matched Parkinsonian handwriting*</i></div>
+
+    <div class="dataHeader">Circle Task</div>
+    <div id="circleTime" class="data"></div>
+    <div id="circleTimePerRep" class="data"></div>
+    <div id="circleVelocity" class="data"></div>
+
+    <div class="dataHeader">Archimedean Spiral Task</div>
+    <div id="archTime" class="data"></div>
+    <div id="archTimePerRep" class="data"></div>
+    <div id="archVelocity" class="data"></div>
+
+    <div class="dataHeader">"elel" Task</div>
+    <div id="elelVelocity" class="data"></div>
+    <div id="elel_E_Time" class="data"></div>
+    <div id="elel_L_Time" class="data"></div>
+    <div id="elel_E_Width" class="data"></div>
+    <div id="elel_L_Width" class="data"></div>
+    <div id="elel_E_Height" class="data"></div>
+    <div id="elel_L_Height" class="data"></div>
+
+    <div align="center" style="padding: 50px 50px 50px 50px;">
+      <button id="surveyBtn" class="button">Continue to Survey</button>
+    </div>
+
+  </body>
+
+  <script src="results.js"></script>
+</html>

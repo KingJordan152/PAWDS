@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <title>PAWDS (Parkinson's Algorithmic Writing Detection Software)</title>
+    <link rel="stylesheet" href="elel.css" />
+  </head>
+
+  <body>
+    <p style="color: #9e9e9e">Press ESC at anytime to quit the program.</p>
+
+    <div class="buttHolders">
+      <button class="button" id="startTask">Start Task</button>
+      <div id="header" align="center"><i>~ "elel" Task ~</i></div>
+      <button class="button" id="clear">Restart Task</button>
+    </div>
+    
+    <div id="drawpadContainer">
+      <div id="helptext">Press the green button to begin!</div>
+      <canvas id="drawpad"></canvas>
+    </div>
+
+    <div class="buttHolders">
+      <button class="button" id="stopTask">Stop Task</button>
+      <button class="button" id="continue">Continue &gt;</button>
+    </div>
+
+    <script src="elel.js"></script>
+  </body>
+</html>
