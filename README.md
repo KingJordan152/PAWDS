@@ -6,7 +6,8 @@ This software application is meant to predict whether or not the user has Parkin
 2) Install ElectronJS via one of the following commands:
    - Global: `npm install electron -g`
    - App Only: `npm install electron --save-dev`
-3) cd to the directory you installed the repository in via Command Prompt.
-4) Type `npm start`
+3) Clone this repository.
+4) cd to the directory you installed the repository in via Command Prompt.
+5) Type `npm start` (it may take a few moments to load).
 
 *For the best experience and most accurate results, please use a drawing tablet (associated drivers can be downloaded separately).* 
