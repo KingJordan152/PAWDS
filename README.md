@@ -1,6 +1,5 @@
 # *PAWDS* (Parkinson's Algorithmic Detection Software)
-## This work has been officially published to the Journal of Student Research! To read my analysis of *PAWDS*, please visit the link below:
-## https://www.jsr.org/hs/index.php/path/article/view/1405
+## This work has been officially published to the Journal of Student Research! To read my analysis of *PAWDS*, please visit this link: https://www.jsr.org/hs/index.php/path/article/view/1405
 <p align="center">
   <img src="https://github.com/KingJordan152/PAWDS/blob/master/src/icon/pawds_icon.png">
 </p>
