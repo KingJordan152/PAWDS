@@ -2,7 +2,7 @@
 ## This work has been officially published to the Journal of Student Research! To read my analysis of *PAWDS*, please visit the link below:
 ## https://www.jsr.org/hs/index.php/path/article/view/1405
 <p align="center">
-  <img width="460" height="300" src="https://github.com/KingJordan152/PAWDS/blob/master/src/icon/pawds_icon.png">
+  <img src="https://github.com/KingJordan152/PAWDS/blob/master/src/icon/pawds_icon.png">
 </p>
 
 This software application is meant to predict whether the user has Parkinson's disease based on the kinematics of their handwriting. It uses a drawing tablet to measure data such as velocity, acceleration, letter size, etc. to ultimately give a prediction for Parkinson's based on a scale from 0% to 100%.
