@@ -18,7 +18,7 @@
   "author": "Jordan King",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.9"
+    "electron": "^15.5.5"
   },
   "dependencies": {
     "electron-packager": "^14.2.1"
